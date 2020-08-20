@@ -106,5 +106,36 @@ body {
 .new-cards {
   margin-top: 10px;
   display: flex;
-  flex-direction: row;
+}
+
+.new-cards div {
+  width: 380px;
+  padding: 4px;
+  color: white;
+}
+
+.new-cards div img {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 4px;
+}
+
+.new-cards h3 {
+  font-weight: bold;
+}
+
+.new-cards div h3, p, a {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.new-cards div a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 600ms;
+}
+
+.new-cards div a:hover {
+  color: #cccc;
 }

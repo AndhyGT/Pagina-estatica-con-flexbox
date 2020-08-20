@@ -102,4 +102,9 @@ body {
 }
 
 
-
+/* NEW-CARDS*/
+.new-cards {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}

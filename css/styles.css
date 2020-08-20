@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  font-size: 18px;
+  font-family: sans-serif
 }
 
 body {
@@ -11,4 +13,40 @@ body {
 #container {
   width: 85%;
   margin: auto;
+}
+
+.nav-main {
+  height: 60px;
+  background: #17202A;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: -1px 1px 7px 1px #1C2833;
+}
+
+.nav-main img {
+  width: 50px;
+  height: 50px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 500ms;
+}
+
+.nav-menu li a:hover {
+  background: #283747;
 }

@@ -1,0 +1,1 @@
+Esta pagina estatica esta creada con flexbox para posicion de los elementos

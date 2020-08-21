@@ -204,6 +204,47 @@ footer {
   box-shadow: -1px 1px 7px 1px #1C2833;
 }
 
+/* RESPONSIVE */
+@media screen and (max-width:1174px) {
+
+  .nav-main {
+    font-size: 10px;
+  }
+
+  .nav-main img {
+    width: 45px;
+    height: 45px;
+    right: 8px;
+  }
+
+  .nav-menu li a {
+    display: flex;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width:1020px) {
+  .nav-social-network {
+    display: none;
+  }
+
+  .new-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .new-cards div{
+    width: 48%;
+    margin-left: 5px;
+  }
+
+  .new-cards div img {
+    height: 220px;
+  }
+}
+
+
 @media screen and (max-width:768px){
 
   .menu-btn {

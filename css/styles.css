@@ -175,3 +175,35 @@ body {
 .secundario {
  background: url('../img/secundario.jpg') !important;
 }
+
+footer {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  background: #17202a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: -1px 1px 7px 1px #1C2833;
+}
+
+@media screen and (max-width:768px) {
+  .nav-main img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+  .nav-menu li a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .nav-social-network {
+    visibility: hidden;
+  }
+}
